@@ -206,9 +206,8 @@ export default function About() {
               <div className="row">
                 <div className="col-lg-6">
                   <ul>
-                    <li><i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May 1995</span></li>
-                    <li><i className="bi bi-chevron-right"></i> <strong>Website:</strong> <span>neagsom.github.io</span></li>
-                    <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+855 123 456 789</span></li>
+                    <li><i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>28 September 2007</span></li>
+                    <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+855 979325903</span></li>
                     <li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>Phnom Penh, Cambodia</span></li>
                   </ul>
                 </div>
@@ -236,12 +235,12 @@ export default function About() {
       <section id="stats" className="stats section">
         <div className="container">
           <div className="row gy-4">
-            <Counter 
+            {/* <Counter 
               end={12} 
               icon="bi bi-emoji-smile" 
               label="Happy Clients" 
               sublabel="worked with directly" 
-            />
+            /> */}
             <Counter 
               end={15} 
               icon="bi bi-journal-richtext" 
@@ -249,13 +248,13 @@ export default function About() {
               sublabel="completed & deployed" 
             />
             <Counter 
-              end={500} 
+              end={10} 
               icon="bi bi-headset" 
               label="Hours Of Support" 
               sublabel="debugging & maintenance" 
             />
             <Counter 
-              end={2} 
+              end={1} 
               icon="bi bi-people" 
               label="Years Experience" 
               sublabel="hands-on development" 
@@ -285,8 +284,8 @@ export default function About() {
               <SkillBar name="JavaScript" value={75} />
             </div>
             <div className="col-lg-6">
-              <SkillBar name="Django Backend" value={80} />
-              <SkillBar name="Microsoft Office Suite" value={90} />
+              <SkillBar name="Python Django" value={80} />
+              <SkillBar name="Microsoft Office Access, PostgreSQL , MySQL, SQL Server , SQLite" value={90} />
               <SkillBar name="React" value={55} />
             </div>
           </div>
