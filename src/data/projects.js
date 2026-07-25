@@ -50,9 +50,9 @@ const projects = [
   title: 'SPMS System',
   category: 'Web Application',
   description: 'A comprehensive Sale and Product Management System with real-time inventory tracking, order processing, customer management, analytics dashboard, and responsive UI.',
-  url: 'https://spms-chh-sn-pro.vercel.app',
+  url: 'https://spms-dashboard-ldyslz0xb-chheangsamnangs-projects.vercel.app',
   image: '/assets/img/products/spms.png',
-  tags: ['React', 'Node.js', 'Express', 'Tailwind CSS', 'Recharts', 'Responsive'],
+  tags: ['React', 'Node.js', 'Express', 'Tailwind CSS', 'Backend', 'Responsive'],
 },
 ];
 
