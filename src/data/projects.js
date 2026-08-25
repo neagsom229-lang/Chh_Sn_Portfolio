@@ -40,10 +40,10 @@ const projects = [
     title: 'E-Commerce Platform',
     category: 'E-Commerce',
     description:
-      'A full-stack online store with product catalog, cart, secure checkout, and an admin dashboard for managing inventory and orders.',
+      'A online store with product catalog, cart, secure checkout, and an profile user dashboard for managing inventory and orders.',
     url: 'https://sn-clothing-ecommerce-4zqs.vercel.app/',
     image: '/assets/img/products/ecommerce.png',
-    tags: ['Frontend', 'Backend', 'Database'],
+    tags: ['Frontend davelopment'],
   },
 {
   id: 3,
